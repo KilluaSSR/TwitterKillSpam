@@ -62,8 +62,8 @@ brew install openjdk@21
 
   - 输入命令，即可开始对`sinner.txt`内的用户全部block。**运行速度会较慢，这是有意为之**。高速、大量的block人会导致你的账号被风控。
 
-  - ```shell
-  java -jar app.jar execute
+    ```shell
+    java -jar app.jar execute
     ```
   
   - 
