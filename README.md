@@ -62,13 +62,21 @@ brew install openjdk@21
 
   - 输入命令，即可开始对`sinner.txt`内的用户全部block。**运行速度会较慢，这是有意为之**。高速、大量的block人会导致你的账号被风控。
 
+  - ```shell
+  java -jar app.jar execute
+    ```
+  
+  - 
+  
     ![image-20250127142826706.png](https://s2.loli.net/2025/01/27/QgPYNvwM9yZFB7r.png)
-
+  
   - block的过程如下：先加载`sinner.txt`内的所有用户到一个集合中，再获取你已经block掉的用户名单、你的关注和你的粉丝名单，从`sinner`集合中去除这三部分人。做到了既不重复block引起风控，又不会伤及你的粉丝或者你关注的人。
 
 ## 获取`sinner.txt`
 
 有两种方法，第一种最简单，就是使用别人已经整理好的。[单击此处下载用户名为“叫妮姐”的克隆人ID集合](https://hezhaothu.lanzoue.com/iO9mW2m3b9ha)。
+
+[这里是我的onedrive](https://wq3q1-my.sharepoint.com/personal/killuassr_wq3q1_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkilluassr%5Fwq3q1%5Fonmicrosoft%5Fcom%2FDocuments%2FShared%2FtwitterSpamID&ga=1)，会定期更新的。你需要把里面的txt改成sinner.txt，这是硬编码。
 
 让我们讲讲第二种。
 
